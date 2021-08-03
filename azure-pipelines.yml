@@ -31,7 +31,8 @@ steps:
 - script: |
       docker run hello-world
 
-pool:
+---
+poolx:
   vmImage: 'ubuntu-18.04'
 
 container: ubuntu:18.04

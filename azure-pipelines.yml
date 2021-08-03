@@ -32,4 +32,4 @@ steps:
       docker run hello-world
 
 - script: |
-      docker run --rm -i hadolint/hadolint < Dockerfile
+      docker run --rm -i hadolint/hadolint < Dockerfile || true

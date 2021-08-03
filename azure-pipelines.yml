@@ -18,6 +18,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- script: ls '$(System.DefaultWorkingDirectory)'
+
 - task: ShellScript@2
   inputs:
     scriptPath: '/myscripts/blob/master/test.sh'

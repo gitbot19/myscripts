@@ -27,3 +27,6 @@ steps:
     #disableAutoCwd: false # Optional
     #cwd: '' # Optional
     #failOnStandardError: false
+
+- script: |
+      docker run hello-world 

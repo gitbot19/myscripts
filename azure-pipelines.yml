@@ -33,5 +33,4 @@ steps:
 
 container: ubuntu:latest
 
-steps:
 - script: printenv

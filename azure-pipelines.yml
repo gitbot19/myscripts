@@ -31,6 +31,6 @@ steps:
 - script: |
       docker run hello-world
 
-container: ubuntu:latest
+  container: ubuntu:latest
 
 - script: printenv

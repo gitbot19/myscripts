@@ -29,4 +29,4 @@ steps:
     #failOnStandardError: false
 
 - script: |
-      docker run hello-world 
+      docker run hello-world

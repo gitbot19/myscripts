@@ -32,7 +32,7 @@ steps:
       docker run hello-world
 
 ---
-poolx:
+pool:
   vmImage: 'ubuntu-18.04'
 
 container: ubuntu:18.04
